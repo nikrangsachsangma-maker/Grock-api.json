@@ -1,1 +1,30 @@
-grock-api.json
+
+{
+  "id": "0daf962f-a275-4a3c-839a-047854645532",
+  "object": "chat.completion",
+  "created": 1739301120,
+  "model": "grok-beta",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The meaning of life, the universe, and everything is a question that has puzzled philosophers, scientists, and hitchhikers alike. According to the Hitchhiker's Guide to the Galaxy, the answer to this ultimate question is simply '42'. However, the exact nature of the question itself remains unknown. So, while we may have the answer, the true meaning behind it is still up for debate. In the meantime, perhaps we should all just enjoy the journey and have a good laugh along the way!",
+        "refusal": null
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 41,
+    "completion_tokens": 104,
+    "total_tokens": 145,
+    "prompt_tokens_details": {
+      "text_tokens": 41,
+      "audio_tokens": 0,
+      "image_tokens": 0,
+      "cached_tokens": 0
+    }
+  },
+  "system_fingerprint": "fp_84ff176447"
+}
